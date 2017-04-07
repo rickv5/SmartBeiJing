@@ -5,9 +5,10 @@
     android:clipChildren="false"
     tools:context=".TicTacToeActivity" >
     
-<!-- calss="com.example.tictactoe.MainFragment" -->
+<!-- class="com.example.tictactoe.MainFragment" -->
     <FrameLayout
         android:id="@+id/main_fragment"
+        tools:class="com.example.tictactoe.MainFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
